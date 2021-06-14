@@ -92,15 +92,5 @@ class Dark_Photon_Thick_Shell():
         return self.V(r) + self.epsilon*self.Vprime(r)
     
 
-# epsilon=10
-# m=20
-# R1=1
-# R2=2
-# s2=10
-# DPTS = Dark_Photon_Thick_Shell(epsilon,m,R1,R2,s2)
-# r_linspace=np.linspace(0,3,10000)
-# dr = r_linspace[1] - r_linspace[0]
-
-#plt.plot(r_linspace,DPTS.V(r_linspace))
 
 
